@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>اطلاعات تفصیلی برنامه های آموزشی | مدرسه امام صادق</title>
+    <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary-color: #2c3e50;
+            --secondary-color: #3498db;
+            --accent-color: #e74c3c;
+            --background-color: #f4f6f8;
+            --text-color: #333;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Vazirmatn', sans-serif;
+            background-color: var(--background-color);
+            color: var(--text-color);
+            line-height: 2;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 0 15px;
+        }
+
+        .academic-header {
+            background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+            color: white;
+            padding: 60px 0;
+            text-align: center;
+            margin-bottom: 40px;
+            clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+        }
+
+        .academic-header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 15px;
+        }
+
+        .academic-content {
+            background: white;
+            padding: 40px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            border-radius: 15px;
+            margin-bottom: 30px;
+        }
+
+        .section-title {
+            border-bottom: 3px solid var(--secondary-color);
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+            color: var(--primary-color);
+        }
+
+        .content-paragraph {
+            margin-bottom: 20px;
+            text-align: justify;
+        }
+
+        .info-box {
+            background: #f9f9f9;
+            border-right: 5px solid var(--accent-color);
+            padding: 20px;
+            margin: 20px 0;
+        }
+
+        .feature-list {
+            list-style-type: none;
+            padding-right: 20px;
+        }
+
+        .feature-list li {
+            position: relative;
+            margin-bottom: 10px;
+            padding-right: 20px;
+        }
+
+        .feature-list li::before {
+            content: '•';
+            position: absolute;
+            right: 0;
+            color: var(--secondary-color);
+        }
+
+        .academic-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+
+        .academic-table th,
+        .academic-table td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: right;
+        }
+
+        .academic-table thead {
+            background-color: var(--primary-color);
+            color: white;
+        }
+
+        .cta-section {
+            background: var(--secondary-color);
+            color: white;
+            padding: 30px;
+            text-align: center;
+            border-radius: 10px;
+            margin-top: 30px;
+        }
+
+        .cta-button {
+            display: inline-block;
+            background: var(--accent-color);
+            color: white;
+            padding: 12px 25px;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 15px;
+            transition: background 0.3s ease;
+        }
+
+        .cta-button:hover {
+            background: var(--primary-color);
+        }
+
+        .main-footer {
+            background: var(--primary-color);
+            color: white;
+            padding: 40px 0;
+            text-align: center;
+        }
+
+        .footer-links {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        .footer-links a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        @media (max-width: 768px) {
+            .container {
+                padding: 0 10px;
+            }
+
+            .academic-content {
+                padding: 20px;
+            }
+
+            .academic-table {
+                font-size: 0.9rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header class="academic-header">
+        <div class="container">
+            <h1>برنامه های آموزشی تفصیلی</h1>
+            <p>راهنمای جامع برنامه‌های آموزشی مدرسه امام صادق</p>
+        </div>
+    </header>
+
+    <main class="container">
+        <article class="academic-content">
+            <h2 class="section-title">مقدمه و اهداف</h2>
+            <p class="content-paragraph">
+                مدرسه امام صادق با رویکردی جامع و پیشرفته، برنامه‌های آموزشی خود را با هدف پرورش استعدادهای دانش‌آموزان و آماده‌سازی آنها برای آینده طراحی کرده است. 
+                ما بر این باوریم که آموزش فراتر از انتقال صرف اطلاعات است و به دنبال شکوفایی خلاقیت و توانمندی‌های فردی دانش‌آموزان هستیم.
+            </p>
+
+            <div class="info-box">
+                <h3>اهداف کلیدی برنامه‌های آموزشی:</h3>
+                <ul class="feature-list">
+                    <li>پرورش مهارت‌های تفکر انتقادی</li>
+                    <li>تقویت خلاقیت و نوآوری</li>
+                    <li>آموزش مهارت‌های زندگی</li>
+                    <li>پرورش هوش هیجانی و اجتماعی</li>
+                </ul>
+            </div>
+
+            <h2 class="section-title">ساختار برنامه‌های آموزشی</h2>
+            <p class="content-paragraph">
+                برنامه‌های آموزشی ما در سه سطح اصلی طراحی شده‌اند که هر سطح متناسب با نیازها و توانمندی‌های دانش‌آموزان است.
+            </p>
+
+            <table class="academic-table">
+                <thead>
+                    <tr>
+                        <th>سطح</th>
+                        <th>پایه تحصیلی</th>
+                        <th>رویکرد آموزشی</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>مقدماتی</td>
+                        <td>۱ تا ۴</td>
+                        <td>آموزش مفاهیم پایه و خلاقیت</td>
+                    </tr>
+                    <tr>
+                        <td>میانی</td>
+                        <td>۵ تا ۸</td>
+                        <td>تمرکز بر مهارت‌های تحقیقاتی</td>
+                    </tr>
+                    <tr>
+                        <td>پیشرفته</td>
+                        <td>۹ تا ۱۲</td>
+                        <td>آماده‌سازی برای ورود به دانشگاه</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h2 class="section-title">متدولوژی آموزشی</h2>
+            <p class="content-paragraph">
+                ما از متدهای نوین آموزشی استفاده می‌کنیم که شامل یادگیری مشارکتی، پروژه محور و استفاده از فناوری‌های آموزشی روز است. 
+                هدف ما ایجاد محیطی پویا و تعاملی برای یادگیری است.
+            </p>
+        </article>
+
+        <section class="cta-section">
+            <h3>علاقه‌مند به اطلاعات بیشتر هستید؟</h3>
+            <p>برای کسب اطلاعات تکمیلی با ما تماس بگیرید</p>
+            <a href="#" class="cta-button">تماس با مشاوران آموزشی</a>
+        </section>
+    </main>
+      <!-- Footer -->
+    <footer class="main-footer">
+        <div class="container">
+            <p>&copy; ۱۴۰۴ مدرسه امام صادق - تمامی حقوق محفوظ است</p>
+            <div class="footer-links">
+                <a href="#">صفحه اصلی</a>
+                <a href="#">برنامه‌های آموزشی</a>
+                <a href="#">ارتباط با ما</a>
+                <a href="#">درباره ما</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
